@@ -1,0 +1,35 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  max-width: 76rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.layout small {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/*xs*/
+@media (max-width: 600px) {
+  .layout {
+    padding: 0 10px;
+  }
+}
+
+/*sm*/
+@media (min-width: 600px) and (max-width: 959px) {
+  .layout {
+    padding: 0 10px;
+  }
+}
+
+/*md*/
+@media (min-width: 960px) and (max-width: 1279px) {
+  .layout {
+    padding: 0 20px;
+  }
+}
+

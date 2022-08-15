@@ -1,0 +1,46 @@
+.button-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+  overflow: hidden;
+}
+
+.button-toggle input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.button-toggle label {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--main-text-color);
+  line-height: 1;
+  text-align: center;
+  padding: 8px 16px;
+  margin-right: -1px;
+  border-radius: 2px;
+  border: solid 1px #d6d6d6;
+  transition: all 0.1s ease-in-out;
+  min-width: 98px;
+}
+
+.button-toggle label:hover {
+  cursor: pointer;
+}
+
+.button-toggle input:checked + label {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.button-toggle label:first-of-type {
+  border-radius: 2px 0 0 2px;
+}
+
+.button-toggle label:last-of-type {
+  border-radius: 0 2px 2px 0;
+}

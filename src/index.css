@@ -1,0 +1,22 @@
+:root {
+  --main-color: #1890ff;
+  --main-text-color: #606060;
+  --white-color: #fff;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background-color: #fcfcfc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
