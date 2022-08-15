@@ -7,7 +7,7 @@ Hacker News - React is an example app for Reign challenge.
 See **Installing** for steps to make it work in your local environment.
 ## 💻 Live Demo
 
-✔ Netlify: soon.
+✔ Netlify: <a href="https://golden-griffin-f75a4a.netlify.app/" target="_blank">https://golden-griffin-f75a4a.netlify.app/</a>.
 
 
 ## 📋 Prerequisites
